@@ -6,9 +6,9 @@ import "./TshirtsCarousel.css";
 
 const TshirtsCarousel = ({ onSelect }) => {
   const tshirtImages = [
-    "https://i.pinimg.com/originals/cb/ef/f1/cbeff1d631d8f0df44c8011e4eafdd36.png",
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Cutout.png",
     "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Image-HD.png",
+    "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Cutout.png",
+    "https://www.pngall.com/wp-content/uploads/14/Hoodie-Background-PNG.png",
     "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Pic.png",
     "https://www.pngall.com/wp-content/uploads/14/Hoodie-No-Background.png",
     "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-HD-Image.png",

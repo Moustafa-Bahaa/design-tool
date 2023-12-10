@@ -1,0 +1,34 @@
+.tshirt-carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tshirt-carousel-container .slider {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tshirt-slide {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.tshirt-slide:hover {
+  transform: scale(1.1);
+}
+.tshirt-slide img {
+  width: 100%;
+  height: 0%;
+}
+
+.tshirt-slide.selected {
+  border: 2px solid #3498db;
+}
+.default-tshirt {
+  width: 40%;
+}

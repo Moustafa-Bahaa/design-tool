@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ada8a8;
+  width: 100%;
+}
+
+.home-left {
+  flex-grow: 1;
+  margin-right: 20px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home-right {
+  flex-shrink: 0;
+  width: 40%;
+}
+.fabric-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

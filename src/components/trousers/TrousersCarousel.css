@@ -1,0 +1,34 @@
+.trouser-carousel-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.trouser-carousel-container .slider {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.trouser-slide {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.trouser-slide:hover {
+  transform: scale(1.1);
+}
+.trouser-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.trouser-slide.selected {
+  border: 2px solid #3498db;
+}
+.default-trouser {
+  width: 40%;
+}

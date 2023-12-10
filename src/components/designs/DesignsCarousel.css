@@ -1,0 +1,48 @@
+.designs-carousel-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.design-slide {
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-right: 10px;
+}
+
+.design-slide:last-child {
+  margin-right: 0;
+}
+
+.design-slide:hover {
+  transform: scale(1.1);
+}
+
+.selected {
+  border: 2px solid #3498db;
+}
+.slider {
+  width: 90%;
+}
+
+.design-image {
+  width: 50%;
+  height: 100px !important;
+}
+
+.selected-design {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.selected-design h2 {
+  text-align: center;
+}
+
+.selected-design-image {
+  width: 100%;
+  height: auto;
+}

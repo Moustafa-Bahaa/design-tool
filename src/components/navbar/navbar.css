@@ -1,45 +1,10 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #2c1b1a;
-  color: #fff;
-}
-
-.navbar-left {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  width: 50px;
-  height: auto;
-  margin-right: 10px;
-  border-radius: 50%;
-}
-
-.navbar-middle {
-  display: flex;
   justify-content: center;
-  flex-grow: 1;
-}
-
-.nav-item {
-  margin: 0 15px;
-  cursor: pointer;
-}
-
-.navbar-right {
-  display: flex;
   align-items: center;
+  color: #fff;
+  margin-bottom: 50px;
 }
-
-.signup-button {
-  background-color: #fff;
-  color: #333;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.navbar img {
+  width: 100px;
 }

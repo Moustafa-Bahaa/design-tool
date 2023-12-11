@@ -3,16 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./TshirtsCarousel.css";
+import tshirt1 from "../../images/11.png";
+import tshirt2 from "../../images/12.png";
+import tshirt3 from "../../images/13.png";
+import tshirt4 from "../../images/14.png";
+import tshirt5 from "../../images/15.png";
 
 const TshirtsCarousel = ({ onSelect }) => {
-  const tshirtImages = [
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Image-HD.png",
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Cutout.png",
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-Background-PNG.png",
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-Pic.png",
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-No-Background.png",
-    "https://www.pngall.com/wp-content/uploads/14/Hoodie-PNG-HD-Image.png",
-  ];
+  const tshirtImages = [tshirt1, tshirt2, tshirt3, tshirt4, tshirt5];
 
   const settings = {
     infinite: true,
@@ -28,21 +26,19 @@ const TshirtsCarousel = ({ onSelect }) => {
 
   return (
     <div className="tshirt-carousel-container">
-      <Slider {...settings} className="slider">
-        {tshirtImages.map((image, index) => (
-          <div
-            key={index}
-            className="tshirt-slide"
-            onClick={() => handleTshirtClick(index)}
-          >
-            <img
-              src={image}
-              alt={`T-shirt ${index + 1}`}
-              className="tshirt-image"
-            />
-          </div>
-        ))}
-      </Slider>
+      {tshirtImages.map((image, index) => (
+        <div
+          key={index}
+          className="tshirt-slide"
+          onClick={() => handleTshirtClick(index)}
+        >
+          <img
+            src={image}
+            alt={`T-shirt ${index + 1}`}
+            className="tshirt-image"
+          />
+        </div>
+      ))}
     </div>
   );
 };

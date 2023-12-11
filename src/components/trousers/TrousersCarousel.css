@@ -16,6 +16,9 @@
 .trouser-slide {
   cursor: pointer;
   transition: transform 0.3s;
+  background-color: #f5f5f5;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .trouser-slide:hover {
@@ -23,7 +26,7 @@
 }
 .trouser-slide img {
   width: 100%;
-  height: 100%;
+  height: 200px;
 }
 
 .trouser-slide.selected {
